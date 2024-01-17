@@ -1,0 +1,44 @@
+body {
+  background-color: aquamarine;
+  background-image: url(../images/paisley.webp);
+  color: white;
+  font-size: 21px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  color: #2f4c5c;
+}
+
+h1 {
+  font-size: 70px;
+  color: #2f4c5c;
+}
+
+/*this dot is what tells css to select class*/
+.top-section-box {
+  background-image: url(../images/octocat.png);
+  background-size: cover;
+  /*background-position: bottom;*/
+  width: 640px;
+
+  /* CSS box model */
+  margin: 50px; /* margin-top, margin-bottom, margin-left, margin-right*/
+  border-width: 5px; /* left, right, top, bottom, same as margin */
+  border-color: red;
+  border-style: dotted;
+  /* last border setting will be applied, previous are ignored */
+  border: 10px solid green;
+  /* margin on the inside of the box = padding */
+  padding: 100px;
+}
+
+.intro {
+  font-size: 24px;
+}
+
+span {
+  color: yellow;
+  font-size: 40px;
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+body {
+  background-color: aliceblue;
+  color: bisque;
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+}
+
+p {
+  color: orange;
+  font-size: 21px;
+  font-family: sans-serif;
+}
